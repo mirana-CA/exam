@@ -1,0 +1,23 @@
+.admin_form{
+    max-width: 500px;
+    margin: 50px auto;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    padding: 20px;
+    input{
+        
+        outline: none;
+        padding: 10px 20px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    button{
+        padding: 10px 20px;
+        border: 1px solid rgba(0, 0, 0, 0.212);
+        background-color: #ecfdff;
+        max-width: max-content;
+        
+    }
+    .error_msg{
+        color: red;
+    }
+}

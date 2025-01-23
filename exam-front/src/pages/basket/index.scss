@@ -1,0 +1,38 @@
+.basket {
+  max-width: 1200px;
+  margin: 100px auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      tr {
+        th {
+          background-color: #ecfdff;
+          padding: 10px 0;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          text-align: center;
+          padding: 10px 0;
+
+          img {
+            width: 100px;
+          }
+        }
+        .counter {
+          span {
+            margin: 0 5px;
+            cursor: pointer;
+          }
+        }
+        .delete_btn{
+            color: red;
+        }
+      }
+    }
+  }
+}
